@@ -23,7 +23,7 @@ header {
 }
 
 .portfolio {
-  font-size: 3rem;
+  font-size: 2rem;
   font-weight: bolder;
 }
 
@@ -32,19 +32,19 @@ header {
 }
 
 .navigation > button {
-  background-color: #a64d79;
-  color: 1a1a1d;
+  background-color: #1a1a1d;
+  color: #a64d79;
   border-radius: 5px;
   padding: 0.5rem;
   font-weight: bolder;
   border: none;
-  font-size: 1.2rem;
+  font-size: 1rem;
 }
 
 .container {
   display: grid;
   grid-template-columns: repeat(8, 1fr);
-  grid-template-rows: repeat(16, 1fr);
+  grid-template-rows: repeat(1, 1fr);
 }
 
 .animation {
@@ -155,8 +155,8 @@ span {
 
 .skills2 h2 {
   font-size: 4rem;
-  text-align: center;
-  color: white;
+  padding-left: 2rem;
+  color: #ffd2d7;
 }
 
 .skills2_images_upper,
@@ -170,6 +170,34 @@ span {
   height: 150px;
   max-width: 20vw;
 }
+
+.projects {
+  grid-column: 1/9;
+}
+
+.projects h3 {
+  text-align: left;
+  padding-left: 2rem;
+  font-size: 3rem;
+  padding-top: 1rem;
+}
+
+.bookmyshow,
+.zomato,
+.solar {
+  display: flex;
+  padding: 2rem;
+  padding-bottom: 0;
+}
+
+.projects_video {
+  padding-right: 2rem;
+}
+
+.projects_video > video {
+  border-radius: 10px;
+}
+
 /* Responsiveness */
 @media (max-width: 800px) {
   .ball > img {
